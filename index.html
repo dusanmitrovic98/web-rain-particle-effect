@@ -49,3 +49,4 @@
         this.y += this.speed;
 
         // Reset particle if it goes beyond the canvas
+        if (this.y - this.length > canvas.height) {
